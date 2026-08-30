@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.light-anchor/shop-search",
+  "description": "Product search for AI agents: Amazon + Shopify, cart-to-checkout buy path. Pay-per-call, no API key.",
+  "repository": {
+    "url": "https://github.com/Light-Anchor/shop-search-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://amazon.lightanchor.ai/mcp"
+    }
+  ]
+}
