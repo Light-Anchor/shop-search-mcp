@@ -1,0 +1,11 @@
+{
+  "name": "shop-search-mcp",
+  "version": "0.1.0",
+  "description": "MCP server: product search for AI agents across Amazon + Shopify with an executable buy-path (cart to checkout URL). Pay-per-call via MPP/HTTP 402, no API key.",
+  "type": "module",
+  "bin": { "shop-search-mcp": "./index.js" },
+  "keywords": ["mcp", "mcp-server", "ai-agents", "amazon", "shopping", "product-search", "shopify", "x402", "mpp", "agentic-commerce"],
+  "author": "Light Anchor Inc (https://lightanchor.ai)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Light-Anchor/shop-search-mcp" }
+}
